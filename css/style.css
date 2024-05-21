@@ -1,0 +1,98 @@
+main {
+  background-color: #000;
+  padding: 80px 0;
+}
+.mistake-title {
+  color: #c1c1c1;
+  text-align: center;
+}
+.mistake-title h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.mistake-title p {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+#mistakeImgRow {
+  margin-top: 100px;
+}
+.text-red {
+  color: #ff0000;
+}
+
+#mistakeImgUpperText {
+  margin-bottom: 100px;
+  font-size: 36px;
+}
+
+.mistakeImgLeft,
+.mistakeImgRight {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+.mistakeImgLeft h3,
+.mistakeImgRight h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.mistakeImgRight {
+  justify-content: space-between;
+}
+#text-1 {
+  max-width: 320px;
+  margin-left: auto;
+}
+#text-2 {
+  max-width: 260px;
+  margin-right: auto;
+}
+#text-3 {
+  max-width: 384px;
+}
+#text-4 {
+  max-width: 408px;
+}
+.mistakeMainImg {
+  position: relative;
+}
+.upperArrow {
+  position: absolute;
+  top: -92px;
+  left: 50%;
+}
+.leftUpper {
+  position: absolute;
+  left: -48px;
+  top: 82px;
+  transform: rotate(353deg);
+  width: 150px;
+}
+.leftBottom {
+  position: absolute;
+  left: -181px;
+  bottom: 86px;
+}
+.rightupper {
+  position: absolute;
+  right: -56px;
+  top: 49px;
+  width: 130px;
+  transform: rotate(354deg);
+}
+.rightBottom {
+  position: absolute;
+  bottom: 101px;
+  right: -141px;
+  width: 250px;
+}
+.manImg {
+  position: relative;
+  z-index: 10;
+}
