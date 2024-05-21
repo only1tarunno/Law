@@ -158,9 +158,9 @@ main {
 }
 .singleTabItem {
   background-color: #ffffff1a;
-
   padding: 40px;
   border-radius: 12px;
+  height: 100%;
 }
 .singleTabImg {
   width: 122px;
