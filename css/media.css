@@ -24,6 +24,23 @@
     bottom: 93px;
     right: -142px;
   }
+  .tab-arrow1 {
+    left: 138px;
+  }
+  .tab-arrow2 {
+    top: -70px;
+    width: 160px;
+    left: 417px;
+  }
+  .tab-arrow3 {
+    width: 158px;
+    right: 418px;
+  }
+  .tab-arrow4 {
+    right: 138px;
+    width: 432px;
+    top: -70px;
+  }
 }
 @media (max-width: 1200px) {
   #mistakeImgRow {
@@ -69,6 +86,30 @@
     bottom: 78px;
     right: -136px;
     width: 208px;
+  }
+  .tab-arrow1 {
+    left: 116px;
+    width: 350px;
+    top: -52px;
+  }
+  .tab-innerTitle {
+    position: relative;
+    margin-top: 60px;
+  }
+  .tab-arrow2 {
+    top: -52px;
+    width: 140px;
+    left: 347px;
+  }
+  .tab-arrow3 {
+    top: -50px;
+    width: 126px;
+    right: 351px;
+  }
+  .tab-arrow4 {
+    top: -52px;
+    right: 118px;
+    width: 348px;
   }
 }
 @media (max-width: 991px) {
@@ -116,6 +157,28 @@
     right: -93px;
     width: 164px;
   }
+  .tab-arrow1 {
+    left: 90px;
+    width: 270px;
+  }
+  #tabInnerRow {
+    row-gap: 20px;
+  }
+  .tab-arrow2 {
+    top: -48px;
+    width: 116px;
+    left: 260px;
+  }
+  .tab-arrow3 {
+    top: -50px;
+    width: 112px;
+    right: 258px;
+  }
+  .tab-arrow4 {
+    top: -50px;
+    right: 85px;
+    width: 286px;
+  }
 }
 @media (max-width: 768px) {
   #mistakeImgRow {
@@ -139,7 +202,11 @@
   .leftBottom,
   .rightupper,
   .rightBottom,
-  .upperArrow {
+  .upperArrow,
+  .tab-arrow1,
+  .tab-arrow2,
+  .tab-arrow3,
+  .tab-arrow4 {
     display: none;
   }
   #mistakeImgUpperText {
@@ -153,5 +220,11 @@
   }
   #text-3 {
     margin-top: 30px;
+  }
+  .tab-innerTitle h2 {
+    font-size: 30px;
+  }
+  #tabInnerRow {
+    margin-top: 40px;
   }
 }

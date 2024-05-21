@@ -16,7 +16,7 @@ main {
   margin-top: 10px;
 }
 #mistakeImgRow {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .text-red {
   color: #ff0000;
@@ -95,4 +95,142 @@ main {
 .manImg {
   position: relative;
   z-index: 10;
+}
+
+/* why us start here  */
+.whyUs {
+  padding: 80px 0;
+}
+
+#whyUsTitle p {
+  max-width: 880px;
+  margin: 0 auto;
+}
+#whyUsTabRow {
+  margin-top: 60px;
+}
+#pills-tab {
+  justify-content: space-around;
+  position: relative;
+}
+.tab-btn-upper-txt {
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+.nav-pills .nav-link {
+  background: #6d6d6d;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  border-radius: 50%;
+  height: 84px;
+  width: 84px;
+  position: relative;
+  z-index: 10;
+}
+
+.nav-pills .nav-link.active {
+  color: #000;
+  background-color: #fff;
+}
+
+.tab-innerTitle {
+  position: relative;
+  margin-top: 80px;
+}
+.tab-innerTitle h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.tab-arrow1 {
+  position: absolute;
+  top: -67px;
+  width: 450px;
+  left: 166px;
+}
+#tabInnerRow {
+  margin-top: 60px;
+}
+.singleTabItem {
+  background-color: #ffffff1a;
+
+  padding: 40px;
+  border-radius: 12px;
+}
+.singleTabImg {
+  width: 122px;
+  height: 122px;
+}
+.singleTabContent {
+  margin-top: 40px;
+}
+.singleTabContent h3 {
+  font-size: 24px;
+  color: #fff;
+}
+.singleTabContent p {
+  color: #c1c1c1;
+}
+.singleTabContent span {
+  display: block;
+  margin-top: 40px;
+  background-color: #ffa8001a;
+  width: 100%;
+  height: 6px;
+  border-radius: 20px;
+  position: relative;
+}
+#singleTabBar1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  background: #ffa800;
+  border-radius: 20px;
+}
+#singleTabBar2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 70%;
+  background: #dbff00;
+  border-radius: 20px;
+}
+#singleTabBar3 {
+  background: #24ff00;
+}
+#tab-btn-bg-bar {
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #000000, #ffffff, #000000);
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+.tab-arrow2 {
+  position: absolute;
+  top: -74px;
+  width: 176px;
+  left: 486px;
+}
+.tab-arrow3 {
+  position: absolute;
+  top: -74px;
+  width: 172px;
+  right: 484px;
+}
+.tab-arrow4 {
+  position: absolute;
+  top: -74px;
+  right: 160px;
+  width: 490px;
 }
