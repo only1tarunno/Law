@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
 main {
   background-color: #000;
   padding: 80px 0;
@@ -13,10 +24,11 @@ main {
 .mistake-title p {
   font-size: 40px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 12px;
+  text-transform: capitalize;
 }
 #mistakeImgRow {
-  margin-top: 60px;
+  margin-top: 170px;
 }
 .text-red {
   color: #ff0000;
@@ -25,6 +37,7 @@ main {
 #mistakeImgUpperText {
   margin-bottom: 100px;
   font-size: 36px;
+  text-transform: capitalize;
 }
 
 .mistakeImgLeft,
@@ -41,6 +54,7 @@ main {
 .mistakeImgRight h3 {
   font-size: 36px;
   font-weight: 600;
+  text-transform: capitalize;
 }
 .mistakeImgRight {
   justify-content: space-between;
@@ -96,32 +110,46 @@ main {
   position: relative;
   z-index: 10;
 }
+#shadow {
+  position: absolute;
+  bottom: 0;
+  left: -200px;
+  z-index: -1;
+  max-width: 800px;
+}
 
 /* why us start here  */
 .whyUs {
   padding: 80px 0;
 }
+#whyUsTitle h2 {
+  color: #fff;
+}
 
+#whyUsTitle h2 span {
+  color: #afafaf;
+}
 #whyUsTitle p {
   max-width: 880px;
-  margin: 0 auto;
+  margin: 12px auto 0;
+  line-height: 47px;
 }
 #whyUsTabRow {
-  margin-top: 60px;
+  margin-top: 63px;
 }
 #pills-tab {
   justify-content: space-around;
   position: relative;
 }
-.tab-btn-upper-txt {
-  color: #fff;
-  display: block;
-  text-align: center;
-  margin: 0 0 4px;
-  font-size: 20px;
-}
+
 .nav-pills .nav-link {
+  background-color: transparent;
+}
+.nav-pills .nav-link .btn-num {
   background: #6d6d6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
@@ -132,10 +160,23 @@ main {
   position: relative;
   z-index: 10;
 }
-
 .nav-pills .nav-link.active {
+  background-color: transparent;
+}
+.nav-pills .nav-link.active .btn-num {
   color: #000;
   background-color: #fff;
+}
+
+.nav-pills .nav-link .tab-btn-upper-txt {
+  color: #6d6d6d;
+  display: block;
+  text-align: center;
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+.nav-pills .nav-link.active .tab-btn-upper-txt {
+  color: #fff;
 }
 
 .tab-innerTitle {
@@ -146,6 +187,7 @@ main {
   color: white;
   text-align: center;
   font-size: 40px;
+  text-transform: capitalize;
 }
 .tab-arrow1 {
   position: absolute;

@@ -179,6 +179,9 @@
     right: 85px;
     width: 286px;
   }
+  #whyUsTitle p {
+    line-height: 30px;
+  }
 }
 @media (max-width: 768px) {
   #mistakeImgRow {
